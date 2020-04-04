@@ -78,6 +78,7 @@ def del_csl(_mod_list, _hash_list):
         for Hash in _hash_list:
             if cal_sha1(mod['path']) == Hash.lower():
                 os.remove(mod['path'])
+                break
 
 
 def download_bin(url, path):
@@ -110,7 +111,7 @@ def check_path():
 def main():
     check_path()
     print('正在查找 CustomSkinLoader')
-    mod_list = find_suspected_mods(find("./mods", ".jar"))
+    mod_list = find_suspected_mods(find("./mods/", ".jar"))
     if not mod_list:
         print('未找到 CustomSkinLoader')
     else:
