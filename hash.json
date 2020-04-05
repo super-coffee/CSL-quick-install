@@ -50,5 +50,13 @@
   {
     "name": "CustomSkinLoader-12.9-HD",
     "hash": "F3C6BFA35F0D3DB98860E079158B039FAD76B130"
+  },
+  {
+   "name": "CustomSkinLoader_Fabric-14.12-SNAPSHOT-109",
+   "hash": "6E26DCE32A90B6AA35407AC90F9523003DAE923A"
+  },
+  {
+   "name": "CustomSkinLoader_Fabric-14.11.jar",
+   "hash": "F3B80173FD03B35A32276BF41CDE45B47D541451"
   }
 ]
